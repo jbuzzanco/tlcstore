@@ -1,6 +1,6 @@
 <?php
-$_['text_social_network']      = 'We are in social networks';
-				$_['text_cb_title']            = 'Call Back Me';
+$_['text_social_network']      = 'Follow us on social media!';
+				$_['text_cb_title']            = 'Request a call';
 				$_['text_cb_your_name']        = 'What is your name';
 				$_['text_cb_your_tel']         = 'Your phone number';
 				$_['text_cb_btn']              = 'Request a call';

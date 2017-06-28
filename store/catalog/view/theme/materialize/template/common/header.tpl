@@ -151,7 +151,7 @@
 									<a id="main-dd-nav" class="dropdown-button text-uppercase" data-activates="dropdown-nav-top" rel="nofollow"><?php echo $text_category; ?></a>
 									<ul id="dropdown-nav-top" class="dropdown-content z-depth-5 dropdown-parent" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
 									// home page of html
-									<li class="no-margin-top"><a href="index.html">Home Content</a></li>
+									<li class="no-margin-top"><a href="../index.html">Home Content</a></li>
 									<?php foreach ($categories as $category) { ?>
 										<?php if ($category['children']) { ?>
 											<a class="dropdown-button dropdown-child" href="<?php echo $category['href']; ?>" data-constrainwidth="true" data-activates="dropdown-nav-top-<?php echo $cat = (strlen($category['href'])*rand(1,30)); ?>" itemprop="url"><span itemprop="name"><?php echo $category['name']; ?></span></a>

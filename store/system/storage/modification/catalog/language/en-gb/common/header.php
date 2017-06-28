@@ -2,7 +2,7 @@
 $_['text_contact']      = 'Contact Us';
 				$_['text_about']        = 'About';
 				$_['text_delivery']     = 'Delivery';
-				$_['text_call_back']    = 'Call back me';
+				$_['text_call_back']    = 'Request a call';
 				$_['text_call_free']    = 'The call is free';
 // Text
 $_['text_home']          = 'Home';
