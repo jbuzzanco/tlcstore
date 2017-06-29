@@ -72,7 +72,7 @@
 		<div class="footer-copyright">
 			<div class="container">
 				<?php echo $powered; ?>
-				<a class="grey-text text-lighten-4 right" target="_blank">Materialize Template</a>
+				<a href="https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=30715" class="grey-text text-lighten-4 right" target="_blank">Materialize Template</a>
 			</div>
 		</div>
 	</footer>
