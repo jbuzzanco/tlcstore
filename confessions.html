@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<base href="http://triumphantlifechurch.com">
 	<title>Triumphant Life</title>
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="theme-color" content="#263238">
@@ -67,53 +66,8 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
-	<script>
-		document.addEventListener("DOMContentLoaded", function(event) {
-			$(".modal-currency-btn").click(function() {
-				html  = '<form action="http://localhost/shop/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency" class="modal">';
-				html += 	'<div class="modal-content">';
-				html += 		'<h4>Currency</h4>';
-													html += '<input class="with-gap currency-select" name="EUR" type="radio" id="EUR"><label for="EUR">€ Euro</label><br>';
-																		html += '<input class="with-gap currency-select" name="GBP" type="radio" id="GBP"><label for="GBP">£ Pound Sterling</label><br>';
-																		html += '<input class="with-gap currency-select" name="USD" type="radio" id="USD" checked="checked"><label for="USD">$ US Dollar</label><br>';
-													html += 	'</div>';
-				html += 	'<input type="hidden" name="code" value=""><input type="hidden" name="redirect" value="http://localhost/shop/index.php?route=common/home">';
-				html += '</form>';
-				$('body').append(html);
-				$('#form-currency').modal().modal('open');
-				$('#form-currency .currency-select').on('click', function(e) {
-					e.preventDefault();
-					$('#form-currency input[name=\'code\']').val($(this).attr('name'));
-					$('#form-currency').submit();
-				});
-			});
-		});
-	</script>
   <!-- font awesome script to import fonts -->
   <script src="https://use.fontawesome.com/c63dbe40a8.js"></script>
-	<script>
-		document.addEventListener("DOMContentLoaded", function(event) {
-			$(".modal-currency-btn").click(function() {
-				html  = '<form action="http://localhost/shop/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency" class="modal">';
-				html += 	'<div class="modal-content">';
-				html += 		'<h4>Currency</h4>';
-													html += '<input class="with-gap currency-select" name="EUR" type="radio" id="EUR"><label for="EUR">€ Euro</label><br>';
-																		html += '<input class="with-gap currency-select" name="GBP" type="radio" id="GBP"><label for="GBP">£ Pound Sterling</label><br>';
-																		html += '<input class="with-gap currency-select" name="USD" type="radio" id="USD" checked="checked"><label for="USD">$ US Dollar</label><br>';
-													html += 	'</div>';
-				html += 	'<input type="hidden" name="code" value=""><input type="hidden" name="redirect" value="http://localhost/shop/index.php?route=common/home">';
-				html += '</form>';
-				$('body').append(html);
-				$('#form-currency').modal().modal('open');
-				$('#form-currency .currency-select').on('click', function(e) {
-					e.preventDefault();
-					$('#form-currency input[name=\'code\']').val($(this).attr('name'));
-					$('#form-currency').submit();
-				});
-			});
-		});
-	</script>
-
 	</header>
 <body>
   <!--Navigation-->
@@ -123,6 +77,7 @@
             <div class="nav-wrapper">
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#">Home</a></li>
+                    <li><a href="/confessions.html">Confessions</a></li>
                     <li><a href="/store">Store</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
@@ -136,16 +91,14 @@
 </div>
     <!-- main content goes here -->
       <!--Hero-->
-<div class="section no-pad-bot" id="index-banner">
+<div class="section no-pad-bot yellow" id="index-banner">
     <div class="container">
-        <h1 class="text_h center header cd-headline letters type">
-            <p style="margin: 0">Triumphant</p>
-            <span>Life Church</span>
-            <span class="cd-words-wrapper waiting">
-                <b class="center is-visible">Erie</b>
-                <b>Jamestown</b>
-                <b>Online</b>
-            </span>
+        <h1 class="text_h grey-text center header cd-headline letters type">
+
+          <a class="white-text" href="#map">Map of Locations <br><i class="material-icons">keyboard_arrow_down</i>
+          </a>
+
+            <a style="margin: 0" href="#map" class="grey-text">Confessions <br><i class="material-icons grey-text">keyboard_arrow_down</i></a>
         </h1>
     </div>
 </div>
