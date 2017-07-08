@@ -125,11 +125,23 @@ nav ul a {
 
 .cd-headline.type i {
     position: absolute;
-    visibility: hidden;
+    visibility: visible;
 }
 .cd-headline.type i.in {
     position: relative;
     visibility: visible;
+}
+
+.material-icons {
+  visibility: visible;
+}
+
+.lion {
+  min-height: 700px;
+}
+
+.foot-social {
+  height: 13em;
 }
 
 @media only screen and (max-width : 992px) {
@@ -140,7 +152,7 @@ nav ul a {
 
 @media only screen and (min-width: 993px) {
   .parallax img {
-    max-height: 170%; /* or higher percentages. It's up to your taste */
+    max-height: 130%; /* or higher percentages. It's up to your taste */
   }
 }
 
