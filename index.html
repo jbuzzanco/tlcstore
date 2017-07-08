@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<base href="http://triumphantlifechurch.com">
 	<title>Triumphant Life</title>
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="theme-color" content="#263238">
@@ -26,20 +25,6 @@
 		<meta name="twitter:title" content="Triumphant lIfe">
 		<meta name="twitter:description" content="church in erie pa hannah roars">
 			<meta name="twitter:image:src" content="http://localhost/shop/image/catalog/logo.png">
-		<script type="application/ld+json">
-	{
-		"@context": "http://schema.org",
-		"@type": "WebSite",
-		"url": "http://localhost/shop/",
-		"name": "Triumphant lIfe",
-				"alternateName": "church in erie pa hannah roars",
-				"potentialAction": {
-			"@type": "SearchAction",
-			"target": "https://materialize.myefforts.ru/index.php?route=product/search&search={query}",
-			"query-input": "required name=query"
-		}
-	}
-	</script>
 		<link href="http://localhost/shop/" rel="canonical">
 		<link href="http://localhost/shop/image/cache/catalog/cart-16x16.png" rel="icon" type="image/png" sizes="16x16">
 		<link href="http://localhost/shop/image/cache/catalog/cart-32x32.png" rel="icon" type="image/png" sizes="32x32">
@@ -67,53 +52,8 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
-	<script>
-		document.addEventListener("DOMContentLoaded", function(event) {
-			$(".modal-currency-btn").click(function() {
-				html  = '<form action="http://localhost/shop/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency" class="modal">';
-				html += 	'<div class="modal-content">';
-				html += 		'<h4>Currency</h4>';
-													html += '<input class="with-gap currency-select" name="EUR" type="radio" id="EUR"><label for="EUR">€ Euro</label><br>';
-																		html += '<input class="with-gap currency-select" name="GBP" type="radio" id="GBP"><label for="GBP">£ Pound Sterling</label><br>';
-																		html += '<input class="with-gap currency-select" name="USD" type="radio" id="USD" checked="checked"><label for="USD">$ US Dollar</label><br>';
-													html += 	'</div>';
-				html += 	'<input type="hidden" name="code" value=""><input type="hidden" name="redirect" value="http://localhost/shop/index.php?route=common/home">';
-				html += '</form>';
-				$('body').append(html);
-				$('#form-currency').modal().modal('open');
-				$('#form-currency .currency-select').on('click', function(e) {
-					e.preventDefault();
-					$('#form-currency input[name=\'code\']').val($(this).attr('name'));
-					$('#form-currency').submit();
-				});
-			});
-		});
-	</script>
   <!-- font awesome script to import fonts -->
   <script src="https://use.fontawesome.com/c63dbe40a8.js"></script>
-	<script>
-		document.addEventListener("DOMContentLoaded", function(event) {
-			$(".modal-currency-btn").click(function() {
-				html  = '<form action="http://localhost/shop/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency" class="modal">';
-				html += 	'<div class="modal-content">';
-				html += 		'<h4>Currency</h4>';
-													html += '<input class="with-gap currency-select" name="EUR" type="radio" id="EUR"><label for="EUR">€ Euro</label><br>';
-																		html += '<input class="with-gap currency-select" name="GBP" type="radio" id="GBP"><label for="GBP">£ Pound Sterling</label><br>';
-																		html += '<input class="with-gap currency-select" name="USD" type="radio" id="USD" checked="checked"><label for="USD">$ US Dollar</label><br>';
-													html += 	'</div>';
-				html += 	'<input type="hidden" name="code" value=""><input type="hidden" name="redirect" value="http://localhost/shop/index.php?route=common/home">';
-				html += '</form>';
-				$('body').append(html);
-				$('#form-currency').modal().modal('open');
-				$('#form-currency .currency-select').on('click', function(e) {
-					e.preventDefault();
-					$('#form-currency input[name=\'code\']').val($(this).attr('name'));
-					$('#form-currency').submit();
-				});
-			});
-		});
-	</script>
-
 	</header>
 <body>
   <!--Navigation-->
@@ -123,10 +63,12 @@
             <div class="nav-wrapper">
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#">Home</a></li>
+                    <li><a href="/confessions.html">Confessions</a></li>
                     <li><a href="/store">Store</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
                     <li><a href="#">Home</a></li>
+                    <li><a href="/confessions.html">Confessions</a></li>
                     <li><a href="/store">Store</a></li>
                 </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>

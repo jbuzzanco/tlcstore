@@ -132,6 +132,18 @@ nav ul a {
     visibility: visible;
 }
 
+@media only screen and (max-width : 992px) {
+  .lion img {
+    max-height: 130%; /* or a little bit higher */
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .parallax img {
+    max-height: 170%; /* or higher percentages. It's up to your taste */
+  }
+}
+
 @-webkit-keyframes cd-pulse {
     0% {
         -webkit-transform: translateY(-50%) scale(1);
