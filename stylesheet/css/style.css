@@ -35,6 +35,10 @@
     color:white;
 }
 
+.carousel-item {
+  min-height: 75%
+}
+
 .brand-logo{
     position: absolute;
     color: #fff;
