@@ -102,6 +102,15 @@ nav ul a {
     background-color: #aebcb9;
 }
 
+.trips {
+  padding-bottom: 0;
+}
+
+.region {
+  padding-top: 3em;
+  margin-bottom: 0;
+}
+
 .cd-headline.type .cd-words-wrapper.waiting::after {
     -webkit-animation: cd-pulse 1s infinite;
     -moz-animation: cd-pulse 1s infinite;
