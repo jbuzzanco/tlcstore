@@ -15,8 +15,7 @@
 }
 
 #index-banner {
-  min-height: 80vh;
-  max-height: 81vh;
+  min-height: 89vh;
   position: relative;
   background-color: #2196F3;
 }
@@ -62,6 +61,10 @@
 .in {
   font-weight: 400 !important;
   font-style: normal !important
+}
+
+.top-social {
+  padding-bottom: 2em;
 }
 
 .promo i {
