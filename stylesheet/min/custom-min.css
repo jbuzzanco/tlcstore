@@ -284,10 +284,33 @@ footer.page-footer {
   margin-top: 0 !important
 }
 
+/* Logo in page between two divs */
+
+.overlap-header {
+  padding: 25px 25px 125px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  position: relative;
+}
+
+.overlap-img {
+  position: relative;
+  display: block;
+  max-width: 80%;
+  margin: -16em auto 1.6em;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 600px) {
     .parallax > img {
       max-width: 100%;
     }
+}
+
+@media only screen and (max-height: 400px) {
+  .section.no-pad-bot {
+    padding-bottom: 55em;
+  }
 }
