@@ -274,6 +274,28 @@ nav a.button-collapse {
   max-height: 800px
 }
 
+.cta-row {
+  padding-bottom: 2em;
+}
+
+.cta-row > div > h3 {
+  padding-top: 2em;
+}
+
+.btn-large {
+  margin: 0.2em;
+}
+body > section.yellow > div.row.cta-row > div:nth-child(2) > a {
+  width: 340px;
+  height: 340px;
+}
+
+body > section.yellow > div.row.cta-row > div:nth-child(2) > a > i {
+    font-size: 20.2rem;
+    line-height: 345px;
+}
+
+
 footer.page-footer {
   padding: 2em 0;
   margin-top: 0 !important
