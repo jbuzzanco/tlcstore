@@ -285,6 +285,7 @@ nav a.button-collapse {
 .btn-large {
   margin: 0.2em;
 }
+/* button for location  */
 body > section.yellow > div.row.cta-row > div:nth-child(2) > a {
   width: 340px;
   height: 340px;
@@ -294,7 +295,7 @@ body > section.yellow > div.row.cta-row > div:nth-child(2) > a > i {
     font-size: 20.2rem;
     line-height: 345px;
 }
-
+/* end button for location  */
 
 footer.page-footer {
   padding: 2em 0;
