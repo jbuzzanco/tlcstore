@@ -297,6 +297,7 @@ body > section.yellow > div.row.cta-row > div:nth-child(2) > a > i {
 }
 /* end button for location  */
 
+
 footer.page-footer {
   padding: 2em 0;
   margin-top: 0 !important
@@ -323,6 +324,19 @@ footer.page-footer {
   .text_h {
     font-size: 4.5em;
   }
+
+  /* button for location  */
+  body > section.yellow > div.row.cta-row > div:nth-child(2) > a {
+    width: 60px;
+    height: 60px;
+  }
+
+  body > section.yellow > div.row.cta-row > div:nth-child(2) > a > i {
+      font-size: 3.2rem;
+      line-height: 60px;
+  }
+  /* end button for location  */
+
 }
 
 @media only screen and (max-height:711px) {
