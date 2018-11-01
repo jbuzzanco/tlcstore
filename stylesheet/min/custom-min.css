@@ -297,6 +297,16 @@ body > section.yellow > div.row.cta-row > div:nth-child(2) > a > i {
 }
 /* end button for location  */
 
+/* brighteon button */
+.bright-btn {
+  width: 90px;
+  height: 90px;
+}
+.bright-img {
+  padding-top: 35px;
+  padding-left: 12px;
+}
+/* end brighteon button */
 
 footer.page-footer {
   padding: 2em 0;
