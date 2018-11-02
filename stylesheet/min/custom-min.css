@@ -77,7 +77,7 @@ overflow-x:hidden;
 }
 
 .top-social {
-  padding-bottom: 2em
+  padding-top: 2em;
 }
 
 .promo i {
@@ -298,11 +298,15 @@ body > section.yellow > div.row.cta-row > div:nth-child(2) > a > i {
 /* end button for location  */
 
 /* brighteon button */
+.bright-img {
+  padding-top: 11px;
+  width: 54%
+}
 .bright-btn {
   width: 90px;
   height: 90px;
 }
-.bright-img {
+.bright-btn > .bright-img {
   padding-top: 10px;
   width: 75%;
 }
