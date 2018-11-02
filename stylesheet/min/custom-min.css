@@ -303,8 +303,8 @@ body > section.yellow > div.row.cta-row > div:nth-child(2) > a > i {
   height: 90px;
 }
 .bright-img {
-  padding-top: 35px;
-  padding-left: 12px;
+  padding-top: 10px;
+  width: 75%;
 }
 /* end brighteon button */
 
