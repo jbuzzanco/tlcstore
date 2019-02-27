@@ -329,6 +329,24 @@ footer.page-footer {
   margin: -16em auto 1.6em
 }
 
+/* navbar centered */
+
+.dropdown-content li a {
+  color: #2196f3;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4%;
+}
+ul.yellow {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 14px;
+}
+
 /* media queries */
 
 @media only screen and (max-width:600px) {
