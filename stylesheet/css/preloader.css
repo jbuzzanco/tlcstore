@@ -1,0 +1,17 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.progress .indeterminate {
+  background-color: rgb(255, 235, 59);
+}
+
+#overlay{
+  height:100%;
+  width:100%;
+  background:rgba(33, 150, 243, 1);
+  position:fixed;
+  left:0;
+  top:0;
+ }
