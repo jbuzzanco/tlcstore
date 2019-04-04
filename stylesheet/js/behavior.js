@@ -1,5 +1,7 @@
-var overlay = document.getElementById("overlay");
+$(window).load(function() {
 
-window.addEventListener('load', function(){
-  overlay.style.display = 'none';
+  $("#status").fadeOut("slow");
+
+  $("#preloader").delay(500).fadeOut("slow").remove();
+
 })
