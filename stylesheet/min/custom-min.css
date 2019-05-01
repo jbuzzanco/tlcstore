@@ -285,6 +285,19 @@ nav a.button-collapse {
 .btn-large {
   margin: 0.2em;
 }
+
+/* dropdown mobile styles */
+.mobile-collapsible {
+	font-size: 1rem;
+	color: #444;
+	letter-spacing: 2px;
+	display: block;
+	font-weight: 300;
+	padding: 0 15px;
+}
+
+/* end dropdown mobile styles */
+
 /* button for location  */
 body > section.yellow > div.row.cta-row > div:nth-child(2) > a {
   width: 340px;
