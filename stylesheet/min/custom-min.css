@@ -44,8 +44,12 @@ overflow-x:hidden;
 }
 
 .text_h {
-  padding: 15% 0;
+  padding: 10% 0 20% 0;
   font-size: 5.2em
+}
+
+.alert-card {
+  background-color: #EF5B5B
 }
 
 .brand-logo {
