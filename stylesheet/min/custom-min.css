@@ -320,12 +320,12 @@ body > section.yellow > div.row.cta-row > div:nth-child(2) > a > i {
   width: 54%
 }
 .bright-btn {
-  width: 90px;
-  height: 90px;
+  width: 55px;
+  height: 55px;
 }
 .bright-btn > .bright-img {
   padding-top: 10px;
-  width: 75%;
+  width: 65%;
 }
 /* end brighteon button */
 
@@ -371,6 +371,12 @@ p a:link {
 p a:hover {
   color: grey;
   text-decoration: underline;
+}
+
+/* paypal top of donate button  */
+
+.paypal-header {
+  padding-bottom: 7em;
 }
 /* media queries */
 
