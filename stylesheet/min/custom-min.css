@@ -375,8 +375,9 @@ p a:hover {
 
 /* paypal top of donate button  */
 
-.paypal-header {
-  padding-bottom: 7em;
+.donate-button {
+  padding-bottom: 4em;
+  padding-top: 2em;
 }
 /* media queries */
 
